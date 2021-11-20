@@ -1,0 +1,32 @@
+{
+  "name": "cli-alerts",
+  "version": "0.0.1",
+  "description": "Cross platform CLI Alerts with colours and coloured symbols for success, info, warning and errors. Works for Windows, MacOs and Linux.",
+  "scripts": {
+    "test": "node test.js",
+    "format": "prettier --write \"./**/*.{js,json}\""
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cli-welcome": "^2.2.2",
+    "log-symbols": "^4.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "cli-alerts",
+    "leo",
+    "njampa"
+  ],
+  "author": {
+    "email": "leonjampa@yahoo.co.uk",
+    "name": "Leo Njampa"
+  },
+  "repository": "LeoNjampa/cli-alerts"
+}
