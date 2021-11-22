@@ -9,7 +9,7 @@ module.exports = options => {
 	const defaultOptions = {
 		type: `error`,
 		msg: `All options must be defined!`,
-		name: ``,
+		name: ``
 	};
 
 	const opts = {...defaultOptions, ...options};
@@ -18,20 +18,21 @@ module.exports = options => {
 	const printName = name ? name : type.toUpperCase();
 
 	if (type === `success`) {
-		console.log(`\n${sym.success} ${success(` ${printName} `)} ${success(msg)}\n`)
+		console.log(`\n${sym.success} ${success(` ${printName} `)} ${success(msg)}\n`);
 	}
 
 	if (type === `warning`) {
-		console.log(`\n${sym.warning} ${warning(` ${printName} `)} ${warning(msg)}\n`)
+		console.log(`\n${sym.warning} ${warning(` ${printName} `)} ${warning(msg)}\n`);
 	}
 
 	if (type === `info`) {
-		console.log(`\n${sym.info} ${info(` ${printName} `)} ${info(msg)}\n`)
+		console.log(`\n${sym.info} ${info(` ${printName} `)} ${info(msg)}\n`);
 	}
 
 	if (type === `error`) {
 		console.log(
-		`\n${sym.error} ${error(` ${printName} `)} ${error(msg)}\n
-		`)
+			`\n${sym.error} ${error(` ${printName} `)} ${error(msg)}\n
+		`
+		);
 	}
 };
