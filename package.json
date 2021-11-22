@@ -1,6 +1,6 @@
 {
   "name": "cli-alerts",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Cross platform CLI Alerts with colours and coloured symbols for success, info, warning and errors. Works for Windows, MacOs and Linux.",
   "scripts": {
     "test": "node test.js",
